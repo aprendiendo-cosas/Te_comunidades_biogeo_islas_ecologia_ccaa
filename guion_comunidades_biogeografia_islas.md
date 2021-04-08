@@ -34,6 +34,12 @@ De manera más concreta, los objetivos de esta sesión son:
 
 La sesión consta de dos apartados diferenciados. En primer lugar se expondrán los conceptos teóricos principales relacionados con los objetivos anteriores. En la segunda parte de la sesión abordaremos cómo se ha trasladado la idea de biogeografía de islas a la construcción de espacios naturales protegidos. 
 
+Además del material descrito a continuación, podéis ver el siguiente material complementario:
++ [Capítulo](https://github.com/aprendiendo-cosas/Te_comunidades_biogeo_islas_ecologia_ccaa/raw/main/biblio/Biogeografia_Begon.pdf) sobre biogeografía de islas del libro de Begon. 
++ [Primeras aplicaciones](https://github.com/aprendiendo-cosas/Te_comunidades_biogeo_islas_ecologia_ccaa/raw/main/biblio/biogeografia_islas_ENPs.pdf) (años 80 del siglo pasado) de la biogeografía de islas al diseño de espacios protegidos. 
++ [Ejemplo](https://github.com/aprendiendo-cosas/Te_comunidades_biogeo_islas_ecologia_ccaa/raw/main/biblio/priority_areas_ecuador.pdf) del uso de la biogeografía de islas para diseñar áreas protegidas en Ecuador. 
++ [Incorporación de la componente socio-ecológica al diseño de espacios protegidos.](https://github.com/aprendiendo-cosas/Te_comunidades_biogeo_islas_ecologia_ccaa/raw/main/biblio/socio_Ecology.pdf) 
+
 
 
 ### Conceptos genereales sobre biogeografía de islas.
@@ -45,61 +51,21 @@ Se usará una presentación de prezi como guía para explicar los siguientes con
 
   
 
-A continuación se puede ver la presentación mencionada. [Aquí](https://github.com/aprendiendo-cosas/Te_comunidades_diversidad_ecologia_ccaa/raw/main/presentacion/comunidades_diversidad.pdf) se puede descargar en formato pdf. [Aquí](https://github.com/aprendiendo-cosas/Te_comunidades_diversidad_ecologia_ccaa/raw/main/presentacion/comunidades_diversidad.exe) se puede descargar la versión interactica para Windows. Y [aquí](https://github.com/aprendiendo-cosas/Te_comunidades_diversidad_ecologia_ccaa/raw/main/presentacion/comunidades_diversidad.zip) para Mac.
+A continuación se puede ver la presentación mencionada. [Aquí](https://github.com/aprendiendo-cosas/Te_comunidades_biogeo_islas_ecologia_ccaa/raw/main/presentacion/comunidades_biogeografia_islas.exe) se puede descargar la versión interactica para Windows. Y [aquí](https://github.com/aprendiendo-cosas/Te_comunidades_biogeo_islas_ecologia_ccaa/raw/main/presentacion/comunidades_biogeografia_islas.zip) para Mac.
 
 
 
 <p><iframe src="https://prezi.com/view/JildW8cQAVvbGvBhPesY/embed" width="1200" height="900"> </iframe></p>
 
 
-Y aquí abajo podéis ver la grabación de la sesión:
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/AgVVj8FbLSA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
 
+### Biogeografía de islas y espacios protegidos
+
+En esta segunda parte de la sesión hablaremos sobre cómo la biogeografía de islas ha contribuido a sostener el concepto de espacio protegido que usamos en la actualidad. Dicho concepto se basa en la creación de "islas" de naturaleza en un mar antropizado no adecuado para la existencia de ecosistemas naturales. Analizaremos en qué medida este concepto se ha extendido por el mundo y da forma a las políticas de conservación de la naturaleza en casi todo el planeta. También analizaremos los puntos débiles de esta aproximación, así como posibles alternativas para mejorarla. 
+
+Para guiar esta segunda parte usaremos [este](https://github.com/aprendiendo-cosas/Te_comunidades_biogeo_islas_ecologia_ccaa/raw/main/presentacion/ENPs.xmind) mapa mental, al que también se puede acceder de forma interactiva aquí. 
 
 
-
-
-### Dinámica de grupo sobre las relaciones entre las especies de una comunidad
-
-Esta dinámica está basado en [este](https://github.com/aprendiendo-cosas/Te_comunidades_diversidad_ecologia_ccaa/raw/main/biblio/aprendizaje_activo.pdf) artículo publicado por dos profesores de la Universidad Nacional de Educación de Ecuador. Además de darme la idea, me facilitaron el material para realizar la dinámica. Y lo mejor de todo es que son mis amigos :)
-
-La idea es usar una técnica de aprendizaje activo para tomar conciencia y adquirir un conocimiento profundo sobre las relaciones que hay entre las especies de una comunidad ecológica. Es la primera vez que constataremos la importancia de la palabra interdependencia. 
-
-La dinámica consiste en usar una serie de bolas de corcho o de poliestireno de diferentes tamaños y unos cuantos palitos metálicos de distinta longitud. Una vez que se han descrito los conceptos generales sobre comunidades y diversidad, se les pide a los estudiantes que construyan una estructura con el material anterior. Se procede de la siguiente forma:
-
-+ Se pone todo el material sobre una mesa grande. Si es posible saldremos a la calle para hacerlo al aire libre.
-+ Cada estudiante va acercándose a la mesa secuencialmente y va montando una parte de una estructura. Une una o dos bolas con uno o dos palitos. Cuando hace su parte deja el testigo al siguiente estudiante. Las bolas pueden tener diferentes palitos pinchados y ningún palito se quedará sin bola en el extremo.
-+ El resultado final es una estructura tridimensional estable en la que hay dos elementos clave: nodos (bolitas) y relaciones (palitos).
-
-A partir de aquí se formulan diversas preguntas que tienen como objeto provocar la comprensión del concepto de relación trofica entre las especies de una comunidad. En concreto se pregunta lo siguiente:
-
-+ Imagina que cada bola es un aeropuerto. Y que las conexiones suponen vuelos entre aeropuertos. Con esta configuración de la red, ¿podemos considerar que hay unos nodos más importantes que otros?
-+ Ahora imagina que cada nodo es una especie de la comunidad. Las conexiones representan las relaciones entre las especies.  ¿Qué quiere decir que una especie tenga más conexiones que otras?, ¿Qué pasaría si eliminamos una especie con muchas conexiones?
-+ Imagina que la estructura que hemos construido refleja únicamente una parte de la complejidad de una comunidad. Es decir, hay más conexiones que no hemos identificado. ¿Qué pasa si eliminamos una especie que en nuestra estructura tiene pocas conexiones?
-+ Ahora vamos a dejar de lado la metáfora que estamos usando y vamos a pensar en la estructura real que tenemos delante. Si fueras físico o ingeniero y conocieras bien las leyes físicas que gobiernan la estabilidad de la estructura, ¿tendrías dudas sobre qué bola quitar para no comprometer dicha estabilidad?. Volvamos a la metáfora, ¿Tendrías la misma certeza si tienes que elegir qué especie eliminar de una comunidad ecológica?
-+ Imagina que coloreamos las bolas con cuatro colores. Cada color representa un "gremio" dentro de la comunidad: productores primarios, herbívoros, depredadores y descomponedores. Hay varias bolas del mismo color. Es decir, especies diferentes que tienen el mismo "papel" en la comunidad. Si ocurriera una perturbación, ¿Cuál de las dos estructuras siguientes sería más "resistente"?:
-  + Una con poca redundancia: pocas bolas del mismo color.
-  + Una con mucha redundancia: muchas bolas del mismo color.
-+ Vamos a seguir complicando la metáfora. Ahora vamos a imaginar que las conexiones son de distintos tipos. La longitud del palito nos da una idea de cómo de "íntima" es la relación entre las especies implicadas. Así, por ejemplo, los palitos más cortos se corresponden con relaciones de parasitismo o simbiosis, en las que las especies implicadas están muy cerca físicamente. ¿Qué crees que pasaría si elimináramos el huésped en una relación de parasitismo? Pista: covid-19...
-
-Aquí podéis ver el vídeo con la grabación de la sesión. 
-
-
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Bv5FNuSkD8w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-Y unas fotos del estupendo trabajo realizado :)
-
-
-
-<img src="https://github.com/aprendiendo-cosas/Te_comunidades_diversidad_ecologia_ccaa/raw/main/presentacion/estructura.jpg" alt="grupo" style="zoom:30%;" />
-
-
-
-
-
-<img src="https://github.com/aprendiendo-cosas/Te_comunidades_diversidad_ecologia_ccaa/raw/main/presentacion/grupo.jpg" alt="grupo" style="zoom:30%;" />
 
