@@ -56,7 +56,7 @@ Se usará una presentación de prezi como guía para explicar los siguientes con
 
   
 
-A continuación se puede ver la presentación mencionada. [Aquí](https://github.com/aprendiendo-cosas/Te_comunidades_biogeo_islas_ecologia_ccaa/raw/main/presentacion/comunidades_biogeografia_islas.exe) se puede descargar la versión interactica para Windows. Y [aquí](https://github.com/aprendiendo-cosas/Te_comunidades_biogeo_islas_ecologia_ccaa/raw/main/presentacion/comunidades_biogeografia_islas.zip) para Mac.
+A continuación se puede ver la presentación mencionada. [Aquí](https://github.com/aprendiendo-cosas/Te_comunidades_biogeo_islas_ecologia_ccaa/raw/main/presentacion/comunidades_biogeografia_islas.exe) se puede descargar la versión interactiva para Windows. Y [aquí](https://github.com/aprendiendo-cosas/Te_comunidades_biogeo_islas_ecologia_ccaa/raw/main/presentacion/comunidades_biogeografia_islas.zip) para Mac.
 
 
 
