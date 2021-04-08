@@ -7,6 +7,11 @@
 > + **Duración**: Aproximadamente 2 horas.
 
 
+![portada](https://github.com/aprendiendo-cosas/Te_comunidades_biogeo_islas_ecologia_ccaa/raw/main/presentacion/images/portada.png)
+
+
+
+
 
 ## Objetivos 
 
@@ -68,4 +73,5 @@ En esta segunda parte de la sesión hablaremos sobre cómo la biogeografía de i
 Para guiar esta segunda parte usaremos [este](https://github.com/aprendiendo-cosas/Te_comunidades_biogeo_islas_ecologia_ccaa/raw/main/presentacion/ENPs.xmind) mapa mental, al que también se puede acceder de forma interactiva [aquí](https://aprendiendo-cosas.github.io/Te_comunidades_biogeo_islas_ecologia_ccaa/presentacion/biogeo_enp.html). 
 
 
+## Vídeo de la sesión
 
