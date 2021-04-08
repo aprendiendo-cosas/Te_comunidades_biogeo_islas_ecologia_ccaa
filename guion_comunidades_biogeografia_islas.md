@@ -65,7 +65,7 @@ A continuación se puede ver la presentación mencionada. [Aquí](https://github
 
 En esta segunda parte de la sesión hablaremos sobre cómo la biogeografía de islas ha contribuido a sostener el concepto de espacio protegido que usamos en la actualidad. Dicho concepto se basa en la creación de "islas" de naturaleza en un mar antropizado no adecuado para la existencia de ecosistemas naturales. Analizaremos en qué medida este concepto se ha extendido por el mundo y da forma a las políticas de conservación de la naturaleza en casi todo el planeta. También analizaremos los puntos débiles de esta aproximación, así como posibles alternativas para mejorarla. 
 
-Para guiar esta segunda parte usaremos [este](https://github.com/aprendiendo-cosas/Te_comunidades_biogeo_islas_ecologia_ccaa/raw/main/presentacion/ENPs.xmind) mapa mental, al que también se puede acceder de forma interactiva aquí. 
+Para guiar esta segunda parte usaremos [este](https://github.com/aprendiendo-cosas/Te_comunidades_biogeo_islas_ecologia_ccaa/raw/main/presentacion/ENPs.xmind) mapa mental, al que también se puede acceder de forma interactiva [aquí](https://aprendiendo-cosas.github.io/Te_comunidades_biogeo_islas_ecologia_ccaa/presentacion/biogeo_enp.html). 
 
 
 
