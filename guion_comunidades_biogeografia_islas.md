@@ -7,7 +7,7 @@
 > + **Duración**: Aproximadamente 2 horas.
 
 
-![portada](https://github.com/aprendiendo-cosas/Te_comunidades_biogeo_islas_ecologia_ccaa/raw/main/presentacion/images/portada.png)
+![portada](https://github.com/aprendiendo-cosas/Te_comunidades_biogeo_islas_ecologia_ccaa/raw/2020-2021/presentacion/images/portada.png)
 
 
 
@@ -40,10 +40,10 @@ De manera más concreta, los objetivos de esta sesión son:
 La sesión consta de dos apartados diferenciados. En primer lugar se expondrán los conceptos teóricos principales relacionados con los objetivos anteriores. En la segunda parte de la sesión abordaremos cómo se ha trasladado la idea de biogeografía de islas a la construcción de espacios naturales protegidos. 
 
 Además del material descrito a continuación, podéis ver el siguiente material complementario:
-+ [Capítulo](https://github.com/aprendiendo-cosas/Te_comunidades_biogeo_islas_ecologia_ccaa/raw/main/biblio/Biogeografia_Begon.pdf) sobre biogeografía de islas del libro de Begon. 
-+ [Primeras aplicaciones](https://github.com/aprendiendo-cosas/Te_comunidades_biogeo_islas_ecologia_ccaa/raw/main/biblio/biogeografia_islas_ENPs.pdf) (años 80 del siglo pasado) de la biogeografía de islas al diseño de espacios protegidos. 
-+ [Ejemplo](https://github.com/aprendiendo-cosas/Te_comunidades_biogeo_islas_ecologia_ccaa/raw/main/biblio/priority_areas_ecuador.pdf) del uso de la biogeografía de islas para diseñar áreas protegidas en Ecuador. 
-+ [Incorporación de la componente socio-ecológica al diseño de espacios protegidos.](https://github.com/aprendiendo-cosas/Te_comunidades_biogeo_islas_ecologia_ccaa/raw/main/biblio/socio_Ecology.pdf) 
++ [Capítulo](https://github.com/aprendiendo-cosas/Te_comunidades_biogeo_islas_ecologia_ccaa/raw/2020-2021/biblio/Biogeografia_Begon.pdf) sobre biogeografía de islas del libro de Begon. 
++ [Primeras aplicaciones](https://github.com/aprendiendo-cosas/Te_comunidades_biogeo_islas_ecologia_ccaa/raw/2020-2021/biblio/biogeografia_islas_ENPs.pdf) (años 80 del siglo pasado) de la biogeografía de islas al diseño de espacios protegidos. 
++ [Ejemplo](https://github.com/aprendiendo-cosas/Te_comunidades_biogeo_islas_ecologia_ccaa/raw/2020-2021/biblio/priority_areas_ecuador.pdf) del uso de la biogeografía de islas para diseñar áreas protegidas en Ecuador. 
++ [Incorporación de la componente socio-ecológica al diseño de espacios protegidos.](https://github.com/aprendiendo-cosas/Te_comunidades_biogeo_islas_ecologia_ccaa/raw/2020-2021/biblio/socio_Ecology.pdf) 
 
 
 
@@ -56,7 +56,7 @@ Se usará una presentación de prezi como guía para explicar los siguientes con
 
   
 
-A continuación se puede ver la presentación mencionada. [Aquí](https://github.com/aprendiendo-cosas/Te_comunidades_biogeo_islas_ecologia_ccaa/raw/main/presentacion/comunidades_biogeografia_islas.exe) se puede descargar la versión interactiva para Windows. Y [aquí](https://github.com/aprendiendo-cosas/Te_comunidades_biogeo_islas_ecologia_ccaa/raw/main/presentacion/comunidades_biogeografia_islas.zip) para Mac.
+A continuación se puede ver la presentación mencionada. [Aquí](https://github.com/aprendiendo-cosas/Te_comunidades_biogeo_islas_ecologia_ccaa/raw/2020-2021/presentacion/comunidades_biogeografia_islas.exe) se puede descargar la versión interactiva para Windows. Y [aquí](https://github.com/aprendiendo-cosas/Te_comunidades_biogeo_islas_ecologia_ccaa/raw/2020-2021/presentacion/comunidades_biogeografia_islas.zip) para Mac.
 
 
 
@@ -70,7 +70,7 @@ A continuación se puede ver la presentación mencionada. [Aquí](https://github
 
 En esta segunda parte de la sesión hablaremos sobre cómo la biogeografía de islas ha contribuido a sostener el concepto de espacio protegido que usamos en la actualidad. Dicho concepto se basa en la creación de "islas" de naturaleza en un mar antropizado no adecuado para la existencia de ecosistemas naturales. Analizaremos en qué medida este concepto se ha extendido por el mundo y da forma a las políticas de conservación de la naturaleza en casi todo el planeta. También analizaremos los puntos débiles de esta aproximación, así como posibles alternativas para mejorarla. 
 
-Para guiar esta segunda parte usaremos [este](https://github.com/aprendiendo-cosas/Te_comunidades_biogeo_islas_ecologia_ccaa/raw/main/presentacion/ENPs.xmind) mapa mental, al que también se puede acceder de forma interactiva [aquí](https://aprendiendo-cosas.github.io/Te_comunidades_biogeo_islas_ecologia_ccaa/presentacion/biogeo_enp.html). 
+Para guiar esta segunda parte usaremos [este](https://github.com/aprendiendo-cosas/Te_comunidades_biogeo_islas_ecologia_ccaa/raw/2020-2021/presentacion/ENPs.xmind) mapa mental, al que también se puede acceder de forma interactiva [aquí](https://aprendiendo-cosas.github.io/Te_comunidades_biogeo_islas_ecologia_ccaa/presentacion/biogeo_enp.html). 
 
 
 ## Vídeo de la sesión
