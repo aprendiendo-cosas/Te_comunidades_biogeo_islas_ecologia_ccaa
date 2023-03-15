@@ -6,7 +6,8 @@
 <link href='https://fonts.loli.net/css?family=Open+Sans:400italic,700italic,700,400&subset=latin,latin-ext' rel='stylesheet' type='text/css' /><style type='text/css'>html {overflow-x: initial !important;}:root { --bg-color: #ffffff; --text-color: #333333; --select-text-bg-color: #B5D6FC; --select-text-font-color: auto; --monospace: "Lucida Console",Consolas,"Courier",monospace; --title-bar-height: 20px; }
 .mac-os-11 { --title-bar-height: 28px; }
 html { font-size: 14px; background-color: var(--bg-color); color: var(--text-color); font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; -webkit-font-smoothing: antialiased; }
-body { margin: 0px; padding: 0px; height: auto; bottom: 0px; top: 0px; left: 0px; right: 0px; font-size: 1rem; line-height: 1.42857143; overflow-x: hidden; background-image: inherit; background-size: inherit; background-attachment: inherit; background-origin: inherit; background-clip: inherit; background-color: inherit; tab-size: 4; background-position: inherit inherit; background-repeat: inherit inherit; }
+h1, h2, h3, h4, h5 { white-space: pre-wrap; }
+body { margin: 0px; padding: 0px; height: auto; inset: 0px; font-size: 1rem; line-height: 1.42857143; overflow-x: hidden; background-image: inherit; background-size: inherit; background-attachment: inherit; background-origin: inherit; background-clip: inherit; background-color: inherit; tab-size: 4; background-position: inherit; background-repeat: inherit; }
 iframe { margin: auto; }
 a.url { word-break: break-all; }
 a:active, a:hover { outline: 0px; }
@@ -22,8 +23,6 @@ body.typora-export { padding-left: 30px; padding-right: 30px; }
 @media screen and (max-width: 500px) { 
   body.typora-export { padding-left: 0px; padding-right: 0px; }
   #write { padding-left: 20px; padding-right: 20px; }
-  .CodeMirror-sizer { margin-left: 0px !important; }
-  .CodeMirror-gutters { display: none !important; }
 }
 #write li > figure:last-child { margin-bottom: 0.5rem; }
 #write ol, #write ul { position: relative; }
@@ -51,12 +50,12 @@ sup.md-footnote a, sup.md-footnote a:hover { color: inherit; text-transform: inh
 #write input[type="checkbox"] { cursor: pointer; width: inherit; height: inherit; }
 figure { overflow-x: auto; margin: 1.2em 0px; max-width: calc(100% + 16px); padding: 0px; }
 figure > table { margin: 0px; }
-tr { break-inside: avoid; break-after: auto; }
+thead, tr { break-inside: avoid; break-after: auto; }
 thead { display: table-header-group; }
 table { border-collapse: collapse; border-spacing: 0px; width: 100%; overflow: auto; break-inside: auto; text-align: left; }
 table.md-table td { min-width: 32px; }
 .CodeMirror-gutters { border-right-width: 0px; background-color: inherit; }
-.CodeMirror-linenumber { }
+.CodeMirror-linenumber { -webkit-user-select: none; }
 .CodeMirror { text-align: left; }
 .CodeMirror-placeholder { opacity: 0.3; }
 .CodeMirror pre { padding: 0px 4px; }
@@ -66,16 +65,17 @@ div.hr:focus { cursor: none; }
 #write.fences-no-line-wrapping pre { white-space: pre; }
 #write pre.ty-contain-cm { white-space: normal; }
 .CodeMirror-gutters { margin-right: 4px; }
-.md-fences { font-size: 0.9rem; display: block; break-inside: avoid; text-align: left; overflow: visible; white-space: pre; background-image: inherit; background-size: inherit; background-attachment: inherit; background-origin: inherit; background-clip: inherit; background-color: inherit; position: relative !important; background-position: inherit inherit; background-repeat: inherit inherit; }
+.md-fences { font-size: 0.9rem; display: block; break-inside: avoid; text-align: left; overflow: visible; white-space: pre; background-image: inherit; background-size: inherit; background-attachment: inherit; background-origin: inherit; background-clip: inherit; background-color: inherit; position: relative !important; background-position: inherit; background-repeat: inherit; }
 .md-fences-adv-panel { width: 100%; margin-top: 10px; text-align: center; padding-top: 0px; padding-bottom: 8px; overflow-x: auto; }
 #write .md-fences.mock-cm { white-space: pre-wrap; }
 .md-fences.md-fences-with-lineno { padding-left: 0px; }
 #write.fences-no-line-wrapping .md-fences.mock-cm { white-space: pre; overflow-x: auto; }
 .md-fences.mock-cm.md-fences-with-lineno { padding-left: 8px; }
 .CodeMirror-line, twitterwidget { break-inside: avoid; }
+svg { break-inside: avoid; }
 .footnotes { opacity: 0.8; font-size: 0.9rem; margin-top: 1em; margin-bottom: 1em; }
 .footnotes + .footnotes { margin-top: 0px; }
-.md-reset { margin: 0px; padding: 0px; border: 0px; outline: 0px; vertical-align: top; text-decoration: none; text-shadow: none; float: none; position: static; width: auto; height: auto; white-space: nowrap; cursor: inherit; line-height: normal; font-weight: 400; text-align: left; box-sizing: content-box; direction: ltr; background-position: 0px 0px; background-repeat: initial initial; }
+.md-reset { margin: 0px; padding: 0px; border: 0px; outline: 0px; vertical-align: top; text-decoration: none; text-shadow: none; float: none; position: static; width: auto; height: auto; white-space: nowrap; cursor: inherit; line-height: normal; font-weight: 400; text-align: left; box-sizing: content-box; direction: ltr; background-position: 0px 0px; }
 li div { padding-top: 0px; }
 blockquote { margin: 1rem 0px; }
 li .mathjax-block, li p { margin: 0.5rem 0px; }
@@ -87,16 +87,18 @@ blockquote > :first-child, li > :first-child { margin-top: 0px; }
 #write .footnote-line { white-space: pre-wrap; }
 @media print { 
   body, html { border: 1px solid transparent; height: 99%; break-after: avoid; break-before: avoid; font-variant-ligatures: no-common-ligatures; }
-  #write { margin-top: 0px; padding-top: 0px; border-color: transparent !important; }
+  #write { margin-top: 0px; border-color: transparent !important; padding-top: 0px !important; padding-bottom: 0px !important; }
   .typora-export * { -webkit-print-color-adjust: exact; }
   .typora-export #write { break-after: avoid; }
   .typora-export #write::after { height: 0px; }
   .is-mac table { break-inside: avoid; }
+  #write > p:nth-child(1) { margin-top: 0px; }
   .typora-export-show-outline .typora-export-sidebar { display: none; }
+  figure { overflow-x: visible; }
 }
 .footnote-line { margin-top: 0.714em; font-size: 0.7em; }
 a img, img a { cursor: pointer; }
-pre.md-meta-block { font-size: 0.8rem; min-height: 0.8rem; white-space: pre-wrap; background-color: rgb(204, 204, 204); display: block; overflow-x: hidden; background-position: initial initial; background-repeat: initial initial; }
+pre.md-meta-block { font-size: 0.8rem; min-height: 0.8rem; white-space: pre-wrap; background-color: rgb(204, 204, 204); display: block; overflow-x: hidden; }
 p > .md-image:only-child:not(.md-img-error) img, p > img:only-child { display: block; margin: auto; }
 #write.first-line-indent p > .md-image:only-child:not(.md-img-error) img { left: -2em; position: relative; }
 p > .md-image:only-child { display: inline-block; width: 100%; }
@@ -130,13 +132,14 @@ p > .md-image:only-child { display: inline-block; width: 100%; }
 }
 a.md-toc-inner { font-size: inherit; font-style: inherit; font-weight: inherit; line-height: inherit; }
 .footnote-line a:not(.reversefootnote) { color: inherit; }
+.reversefootnote { font-family: ui-monospace, sans-serif; }
 .md-attr { display: none; }
 .md-fn-count::after { content: "."; }
 code, pre, samp, tt { font-family: var(--monospace); }
-kbd { margin: 0px 0.1em; padding: 0.1em 0.6em; font-size: 0.8em; color: rgb(36, 39, 41); background-color: rgb(255, 255, 255); border: 1px solid rgb(173, 179, 185); border-top-left-radius: 3px; border-top-right-radius: 3px; border-bottom-right-radius: 3px; border-bottom-left-radius: 3px; box-shadow: rgba(12, 13, 14, 0.2) 0px 1px 0px, rgb(255, 255, 255) 0px 0px 0px 2px inset; white-space: nowrap; vertical-align: middle; background-position: initial initial; background-repeat: initial initial; }
+kbd { margin: 0px 0.1em; padding: 0.1em 0.6em; font-size: 0.8em; color: rgb(36, 39, 41); background-color: rgb(255, 255, 255); border: 1px solid rgb(173, 179, 185); border-top-left-radius: 3px; border-top-right-radius: 3px; border-bottom-right-radius: 3px; border-bottom-left-radius: 3px; box-shadow: rgba(12, 13, 14, 0.2) 0px 1px 0px, rgb(255, 255, 255) 0px 0px 0px 2px inset; white-space: nowrap; vertical-align: middle; }
 .md-comment { color: rgb(162, 127, 3); opacity: 0.6; font-family: var(--monospace); }
 code { text-align: left; }
-a.md-print-anchor { white-space: pre !important; border: none !important; display: inline-block !important; position: absolute !important; width: 1px !important; right: 0px !important; outline: 0px !important; text-shadow: initial !important; background-position: 0px 0px !important; background-repeat: initial initial !important; }
+a.md-print-anchor { white-space: pre !important; border: none !important; display: inline-block !important; position: absolute !important; width: 1px !important; right: 0px !important; outline: 0px !important; text-shadow: initial !important; background-position: 0px 0px !important; }
 .os-windows.monocolor-emoji .md-emoji { font-family: "Segoe UI Symbol", sans-serif; }
 .md-diagram-panel > svg { max-width: 100%; }
 [lang="flow"] svg, [lang="mermaid"] svg { max-width: 100%; height: auto; }
@@ -145,7 +148,7 @@ table tr th { border-bottom-width: 0px; }
 video { max-width: 100%; display: block; margin: 0px auto; }
 iframe { max-width: 100%; width: 100%; border: none; }
 .highlight td, .highlight tr { border: 0px; }
-mark { background-color: rgb(255, 255, 0); color: rgb(0, 0, 0); background-position: initial initial; background-repeat: initial initial; }
+mark { background-color: rgb(255, 255, 0); color: rgb(0, 0, 0); }
 .md-html-inline .md-plain, .md-html-inline strong, mark .md-inline-math, mark strong { color: inherit; }
 .md-expand mark .md-meta { opacity: 0.3 !important; }
 mark .md-meta { color: rgb(0, 0, 0); }
@@ -157,7 +160,7 @@ mark .md-meta { color: rgb(0, 0, 0); }
 .md-diagram-panel .edgeLabel rect { opacity: 1 !important; }
 .md-fences.md-fences-math { font-size: 1em; }
 .md-fences-advanced:not(.md-focus) { padding: 0px; white-space: nowrap; border: 0px; }
-.md-fences-advanced:not(.md-focus) { background-image: inherit; background-size: inherit; background-attachment: inherit; background-origin: inherit; background-clip: inherit; background-color: inherit; background-position: inherit inherit; background-repeat: inherit inherit; }
+.md-fences-advanced:not(.md-focus) { background-image: inherit; background-size: inherit; background-attachment: inherit; background-origin: inherit; background-clip: inherit; background-color: inherit; background-position: inherit; background-repeat: inherit; }
 .typora-export-show-outline .typora-export-content { max-width: 1440px; margin: auto; display: flex; flex-direction: row; }
 .typora-export-sidebar { width: 300px; font-size: 0.8rem; margin-top: 80px; margin-right: 18px; }
 .typora-export-show-outline #write { --webkit-flex: 2; flex: 2 1 0%; }
@@ -172,9 +175,9 @@ mark .md-meta { color: rgb(0, 0, 0); }
 .outline-content ul { margin-top: 0px; margin-bottom: 0px; }
 .outline-content strong { font-weight: 400; }
 .outline-expander { width: 1rem; height: 1.428571429rem; position: relative; display: table-cell; vertical-align: middle; cursor: pointer; padding-left: 4px; }
-.outline-expander::before { content: ''; position: relative; font-family: Ionicons; display: inline-block; font-size: 8px; vertical-align: middle; }
+.outline-expander::before { content: ""; position: relative; font-family: Ionicons; display: inline-block; font-size: 8px; vertical-align: middle; }
 .outline-item { padding-top: 3px; padding-bottom: 3px; cursor: pointer; }
-.outline-expander:hover::before { content: ''; }
+.outline-expander:hover::before { content: ""; }
 .outline-h1 > .outline-item { padding-left: 0px; }
 .outline-h2 > .outline-item { padding-left: 1em; }
 .outline-h3 > .outline-item { padding-left: 2em; }
@@ -186,19 +189,20 @@ mark .md-meta { color: rgb(0, 0, 0); }
 .outline-item:hover { border-color: rgb(245, 245, 245); background-color: var(--item-hover-bg-color); }
 .outline-item:hover { margin-left: -28px; margin-right: -28px; border-left-width: 28px; border-left-style: solid; border-left-color: transparent; border-right-width: 28px; border-right-style: solid; border-right-color: transparent; }
 .outline-item-single .outline-expander::before, .outline-item-single .outline-expander:hover::before { display: none; }
-.outline-item-open > .outline-item > .outline-expander::before { content: ''; }
+.outline-item-open > .outline-item > .outline-expander::before { content: ""; }
 .outline-children { display: none; }
 .info-panel-tab-wrapper { display: none; }
 .outline-item-open > .outline-children { display: block; }
 .typora-export .outline-item { padding-top: 1px; padding-bottom: 1px; }
 .typora-export .outline-item:hover { margin-right: -8px; border-right-width: 8px; border-right-style: solid; border-right-color: transparent; }
 .typora-export .outline-expander::before { content: "+"; font-family: inherit; top: -1px; }
-.typora-export .outline-expander:hover::before, .typora-export .outline-item-open > .outline-item > .outline-expander::before { content: '−'; }
+.typora-export .outline-expander:hover::before, .typora-export .outline-item-open > .outline-item > .outline-expander::before { content: "−"; }
 .typora-export-collapse-outline .outline-children { display: none; }
 .typora-export-collapse-outline .outline-item-open > .outline-children, .typora-export-no-collapse-outline .outline-children { display: block; }
 .typora-export-no-collapse-outline .outline-expander::before { content: "" !important; }
 .typora-export-show-outline .outline-item-active > .outline-item .outline-label { font-weight: 700; }
 .md-inline-math-container mjx-container { zoom: 0.95; }
+mjx-container { break-inside: avoid; }
 
 
 :root {
@@ -457,11 +461,8 @@ code {
     html {
         font-size: 13px;
     }
-    table,
     pre {
         page-break-inside: avoid;
-    }
-    pre {
         word-wrap: break-word;
     }
 }
@@ -593,6 +594,6 @@ header, .context-menu, .megamenu-content, footer{
 </style><title>guion_comunidades_biogeografia_islas</title>
 </head>
 <body class='typora-export'><div class='typora-export-content'>
-<div id='write'  class=''><h1 id='guión-de-la-sesión-comunidades-biogeografía-de-islas'><span>Guión de la sesión &quot;Comunidades. Biogeografía de islas&quot;</span></h1><blockquote><ul><li><strong><em><span>Versión</span></em></strong><span>: 2021-2022</span></li><li><strong><em><span>Asignatura (grado)</span></em></strong><span>: Ecología (CCAA)</span></li><li><strong><em><span>Autor</span></em></strong><span>: Curro Bonet-García (fjbonet@uco.es)</span></li><li><strong><span>Duración</span></strong><span>: Aproximadamente 2 horas.</span></li></ul></blockquote><p><img src="https://github.com/aprendiendo-cosas/Te_comunidades_biogeo_islas_ecologia_ccaa/raw/2021-2022/presentacion/images/portada.png" referrerpolicy="no-referrer" alt="portada"></p><p>&nbsp;</p><h2 id='objetivos'><span>Objetivos </span></h2><p><span>En esta sesión abordaremos una cuestión importante de las comunidades ecológicas: su distribución en el espacio. Analizaremos por primera vez en la asignatura cómo se distribuyen diversidad en el territorio y aprenderemos a interpretar alguno de los patrones espaciales más importantes. En concreto estudiaremos cómo los ecólogos han tratado de dar respuesta a algo que se conoce desde hace mucho tiempo: las islas pequeñas tienen menos especies que las islas grandes. Pudiera parecer un patrón poco relevante, pero no es así. El estudio de esta situación nos ha ayudado a comprender mejor cómo se ensamblan las comunidades en la naturaleza y cómo unas especies van reemplazando a otras en función de aspectos geográficos como la distancia o el tamaño del hábitat adecuado para las distintas especies. </span></p><p><span>Además, la biogeografía de islas es uno de los pilares conceptuales que sustenta la idea de espacio protegido como herramienta fundamental en la conservación de la naturaleza. El estudio de la biogeografía de islas nos servirá como &quot;excusa&quot; para analizar la idea de espacio protegido a la luz de la ecología de comunidades.</span></p><p><span>De manera más concreta, los objetivos de esta sesión son:</span></p><ul><li><span>Conocer el concepto de biogeografía de islas.</span></li><li><span>Comprender la diferencia entre patrón espacial de una variable y el proceso que explica dicho patrón. Ej. &quot;las islas pequeñas tienen menos especies&quot; y &quot;esto ocurre porque ....&quot;</span></li><li><span>Establecer relaciones conceptuales entre la bioeografía de islas y el concepto de metapoblación. Este objetivo se abordará con una actividad específica calificable. </span></li><li><span>Transferir el conocimiento adquirido en esta sesión a la resolución de un problema concreto relacionado con el concepto de fragmentación de hábitats. Este objetivo se abordará con una tarea específica calificable. </span></li><li><span>Aprender las relaciones entre la biogeografía de islas y el diseño de redes de espacios protegidos.</span></li></ul><h2 id='contenido'><span>Contenido</span></h2><p><span>La sesión consta de dos apartados diferenciados. En primer lugar se expondrán los conceptos teóricos principales relacionados con los objetivos anteriores. En la segunda parte de la sesión abordaremos cómo se ha trasladado la idea de biogeografía de islas a la construcción de espacios naturales protegidos. </span></p><p><span>Además del material descrito a continuación, podéis ver el siguiente material complementario:</span></p><ul><li><a href='https://github.com/aprendiendo-cosas/Te_comunidades_biogeo_islas_ecologia_ccaa/raw/2021-2022/biblio/Biogeografia_Begon.pdf'><span>Capítulo</span></a><span> sobre biogeografía de islas del libro de Begon. </span></li><li><a href='https://github.com/aprendiendo-cosas/Te_comunidades_biogeo_islas_ecologia_ccaa/raw/2021-2022/biblio/biogeografia_islas_ENPs.pdf'><span>Primeras aplicaciones</span></a><span> (años 80 del siglo pasado) de la biogeografía de islas al diseño de espacios protegidos. </span></li><li><a href='https://github.com/aprendiendo-cosas/Te_comunidades_biogeo_islas_ecologia_ccaa/raw/2021-2022/biblio/priority_areas_ecuador.pdf'><span>Ejemplo</span></a><span> del uso de la biogeografía de islas para diseñar áreas protegidas en Ecuador. </span></li><li><a href='https://github.com/aprendiendo-cosas/Te_comunidades_biogeo_islas_ecologia_ccaa/raw/2021-2022/biblio/socio_Ecology.pdf'><span>Incorporación de la componente socio-ecológica al diseño de espacios protegidos.</span></a><span> </span></li><li><a href='http://virtualbiologylab.org/ModelsHTML5/IslandBiogeography/IslandBiogeography.html'><span>Modelo dinámico en internet para simular la biogeografía de islas.</span></a><span> </span></li></ul><p>&nbsp;</p><h3 id='conceptos-genereales-sobre-biogeografía-de-islas'><span>Conceptos genereales sobre biogeografía de islas.</span></h3><p><span>Se usará una presentación de prezi como guía para explicar los siguientes conceptos:</span></p><ul><li><p><span>Definición de biogeografía de islas: las islas pequeñas y remotas tienen menos especies que las grandes y cercanas al continente. </span></p></li><li><p><span>Caracterización de los procesos que explican los patrones anteriores: emigración y tasa de extinción.</span></p><p>&nbsp;</p></li></ul><p><span>A continuación se puede ver la presentación mencionada. </span><a href='https://github.com/aprendiendo-cosas/Te_comunidades_biogeo_islas_ecologia_ccaa/raw/2021-2022/presentacion/comunidades_biogeografia_islas.exe'><span>Aquí</span></a><span> se puede descargar la versión interactiva para Windows. Y </span><a href='https://github.com/aprendiendo-cosas/Te_comunidades_biogeo_islas_ecologia_ccaa/raw/2021-2022/presentacion/comunidades_biogeografia_islas.zip'><span>aquí</span></a><span> para Mac. Por último, </span><a href='https://github.com/aprendiendo-cosas/Te_comunidades_biogeo_islas_ecologia_ccaa/raw/2021-2022/presentacion/comunidades_biogeografia_islas.pdf'><span>aquí</span></a><span> la tienes en pdf.</span></p><p>&nbsp;</p><p><iframe src="https://prezi.com/view/FpUZVNVVY1iGHyMiMoYL/embed" width="1200" height="900"> </iframe></p><p>&nbsp;</p><p>&nbsp;</p><h3 id='biogeografía-de-islas-y-espacios-protegidos'><span>Biogeografía de islas y espacios protegidos</span></h3><p><span>En esta segunda parte de la sesión hablaremos sobre cómo la biogeografía de islas ha contribuido a sostener el concepto de espacio protegido que usamos en la actualidad. Dicho concepto se basa en la creación de &quot;islas&quot; de naturaleza en un mar antropizado no adecuado para la existencia de ecosistemas naturales. Analizaremos en qué medida este concepto se ha extendido por el mundo y da forma a las políticas de conservación de la naturaleza en casi todo el planeta. También analizaremos los puntos débiles de esta aproximación, así como posibles alternativas para mejorarla. </span></p><p><span>Para guiar esta segunda parte usaremos </span><a href='https://github.com/aprendiendo-cosas/Te_comunidades_biogeo_islas_ecologia_ccaa/raw/2021-2022/presentacion/ENPs.xmind'><span>este</span></a><span> mapa mental, al que también se puede acceder de forma interactiva </span><a href='https://rawcdn.githack.com/aprendiendo-cosas/Te_comunidades_biogeo_islas_ecologia_ccaa/2021-2022/presentacion/biogeo_enp.html'><span>aquí</span></a><span>. </span></p><p><iframe src="https://rawcdn.githack.com/aprendiendo-cosas/Te_comunidades_biogeo_islas_ecologia_ccaa/2021-2022/presentacion/biogeo_enp.html" width="1200" height="900"> </iframe></p><h2 id='evaluación-de-la-sesión-según-los-estudiantes'><span>Evaluación de la sesión según los estudiantes</span></h2><p><span>Aquí puedes ver los resultados que, por ahora, arroja </span><a href='https://docs.google.com/forms/d/e/1FAIpQLScbCKaNkzzjV5bH0yek41FO-KS7LtLhT_ilITS_ZR0Z2XJyCA/viewform?usp=sf_link'><span>esta</span></a><span> encuesta sobre grado de satisfacción de los objetivos planteados. Por favor, rellénala si no lo has hecho ya. Se tardan 10 segundos y sus resultados son de gran utilidad para mejorar los contenidos cada año. Gracias.</span></p><p><img src="https://github.com/aprendiendo-cosas/Te_comunidades_biogeo_islas_ecologia_ccaa/raw/2021-2022/imagenes/cumplimiento_objetivos.png" alt="image" style="zoom:50%;" /></p><p><img src="https://github.com/aprendiendo-cosas/Te_comunidades_biogeo_islas_ecologia_ccaa/raw/2021-2022/imagenes/desempenio_profesor.png" alt="image" style="zoom:50%;" /></p></div></div>
+<div id='write'  class=''><h1 id='guión-de-la-sesión-comunidades-biogeografía-de-islas'><span>Guión de la sesión &quot;Comunidades. Biogeografía de islas&quot;</span></h1><blockquote><ul><li><p><strong><em><span>Versión</span></em></strong><span>: 2022-2023</span></p></li><li><p><strong><em><span>Asignatura (grado)</span></em></strong><span>: Ecología (CCAA)</span></p></li><li><p><strong><em><span>Autor</span></em></strong><span>: Curro Bonet-García (fjbonet@uco.es)</span></p></li><li><p><strong><span>Duración</span></strong><span>: Aproximadamente 2 horas.</span></p></li></ul></blockquote><p><img src="https://github.com/aprendiendo-cosas/Te_comunidades_biogeo_islas_ecologia_ccaa/raw/2021-2022/presentacion/images/portada.png" referrerpolicy="no-referrer" alt="portada"></p><p>&nbsp;</p><h2 id='objetivos'><span>Objetivos </span></h2><p><span>En esta sesión abordaremos una cuestión importante de las comunidades ecológicas: su distribución en el espacio. Analizaremos por primera vez en la asignatura cómo se distribuyen diversidad en el territorio y aprenderemos a interpretar alguno de los patrones espaciales más importantes. En concreto estudiaremos cómo los ecólogos han tratado de dar respuesta a algo que se conoce desde hace mucho tiempo: las islas pequeñas tienen menos especies que las islas grandes. Pudiera parecer un patrón poco relevante, pero no es así. El estudio de esta situación nos ha ayudado a comprender mejor cómo se ensamblan las comunidades en la naturaleza y cómo unas especies van reemplazando a otras en función de aspectos geográficos como la distancia o el tamaño del hábitat adecuado para las distintas especies. </span></p><p><span>Además, la biogeografía de islas es uno de los pilares conceptuales que sustenta la idea de espacio protegido como herramienta fundamental en la conservación de la naturaleza. El estudio de la biogeografía de islas nos servirá como &quot;excusa&quot; para analizar la idea de espacio protegido a la luz de la ecología de comunidades.</span></p><p><span>De manera más concreta, los objetivos de esta sesión son:</span></p><ul><li><p><span>Conocer el concepto de biogeografía de islas.</span></p></li><li><p><span>Comprender la diferencia entre patrón espacial de una variable y el proceso que explica dicho patrón. Ej. &quot;las islas pequeñas tienen menos especies&quot; y &quot;esto ocurre porque ....&quot;</span></p></li><li><p><span>Establecer relaciones conceptuales entre la bioeografía de islas y el concepto de metapoblación. Este objetivo se abordará con una actividad específica calificable. </span></p></li><li><p><span>Transferir el conocimiento adquirido en esta sesión a la resolución de un problema concreto relacionado con el concepto de fragmentación de hábitats. Este objetivo se abordará con una tarea específica calificable. </span></p></li><li><p><span>Aprender las relaciones entre la biogeografía de islas y el diseño de redes de espacios protegidos.</span></p></li></ul><h2 id='contenido'><span>Contenido</span></h2><p><span>La sesión consta de dos apartados diferenciados. En primer lugar se expondrán los conceptos teóricos principales relacionados con los objetivos anteriores. En la segunda parte de la sesión abordaremos cómo se ha trasladado la idea de biogeografía de islas a la construcción de espacios naturales protegidos. </span></p><p><span>Además del material descrito a continuación, podéis ver el siguiente material complementario:</span></p><ul><li><p><a href='https://github.com/aprendiendo-cosas/Te_comunidades_biogeo_islas_ecologia_ccaa/raw/2021-2022/biblio/Biogeografia_Begon.pdf'><span>Capítulo</span></a><span> sobre biogeografía de islas del libro de Begon. </span></p></li><li><p><a href='https://github.com/aprendiendo-cosas/Te_comunidades_biogeo_islas_ecologia_ccaa/raw/2021-2022/biblio/biogeografia_islas_ENPs.pdf'><span>Primeras aplicaciones</span></a><span> (años 80 del siglo pasado) de la biogeografía de islas al diseño de espacios protegidos. </span></p></li><li><p><a href='https://github.com/aprendiendo-cosas/Te_comunidades_biogeo_islas_ecologia_ccaa/raw/2021-2022/biblio/priority_areas_ecuador.pdf'><span>Ejemplo</span></a><span> del uso de la biogeografía de islas para diseñar áreas protegidas en Ecuador. </span></p></li><li><p><a href='https://github.com/aprendiendo-cosas/Te_comunidades_biogeo_islas_ecologia_ccaa/raw/2021-2022/biblio/socio_Ecology.pdf'><span>Incorporación de la componente socio-ecológica al diseño de espacios protegidos.</span></a><span> </span></p></li><li><p><a href='http://virtualbiologylab.org/ModelsHTML5/IslandBiogeography/IslandBiogeography.html'><span>Modelo dinámico en internet para simular la biogeografía de islas.</span></a><span> </span></p></li></ul><p>&nbsp;</p><h3 id='conceptos-genereales-sobre-biogeografía-de-islas'><span>Conceptos genereales sobre biogeografía de islas.</span></h3><p><span>Se usará una presentación de prezi como guía para explicar los siguientes conceptos:</span></p><ul><li><p><span>Definición de biogeografía de islas: las islas pequeñas y remotas tienen menos especies que las grandes y cercanas al continente. </span></p></li><li><p><span>Caracterización de los procesos que explican los patrones anteriores: emigración y tasa de extinción.</span></p><p>&nbsp;</p></li></ul><p><span>A continuación se puede ver la presentación mencionada. </span><a href='https://github.com/aprendiendo-cosas/Te_comunidades_biogeo_islas_ecologia_ccaa/raw/2021-2022/presentacion/comunidades_biogeografia_islas.exe'><span>Aquí</span></a><span> se puede descargar la versión interactiva para Windows. Y </span><a href='https://github.com/aprendiendo-cosas/Te_comunidades_biogeo_islas_ecologia_ccaa/raw/2021-2022/presentacion/comunidades_biogeografia_islas.zip'><span>aquí</span></a><span> para Mac. Por último, </span><a href='https://github.com/aprendiendo-cosas/Te_comunidades_biogeo_islas_ecologia_ccaa/raw/2021-2022/presentacion/comunidades_biogeografia_islas.pdf'><span>aquí</span></a><span> la tienes en pdf.</span></p><p>&nbsp;</p><p><iframe src="https://prezi.com/view/FpUZVNVVY1iGHyMiMoYL/embed" width="1200" height="900"> </iframe></p><p>&nbsp;</p><p>&nbsp;</p><h3 id='biogeografía-de-islas-y-espacios-protegidos'><span>Biogeografía de islas y espacios protegidos</span></h3><p><span>En esta segunda parte de la sesión hablaremos sobre cómo la biogeografía de islas ha contribuido a sostener el concepto de espacio protegido que usamos en la actualidad. Dicho concepto se basa en la creación de &quot;islas&quot; de naturaleza en un mar antropizado no adecuado para la existencia de ecosistemas naturales. Analizaremos en qué medida este concepto se ha extendido por el mundo y da forma a las políticas de conservación de la naturaleza en casi todo el planeta. También analizaremos los puntos débiles de esta aproximación, así como posibles alternativas para mejorarla. </span></p><p><span>Para guiar esta segunda parte usaremos </span><a href='https://github.com/aprendiendo-cosas/Te_comunidades_biogeo_islas_ecologia_ccaa/raw/2021-2022/presentacion/ENPs.xmind'><span>este</span></a><span> mapa mental, al que también se puede acceder de forma interactiva </span><a href='https://rawcdn.githack.com/aprendiendo-cosas/Te_comunidades_biogeo_islas_ecologia_ccaa/2021-2022/presentacion/biogeo_enp.html'><span>aquí</span></a><span>. </span></p><p><iframe src="https://rawcdn.githack.com/aprendiendo-cosas/Te_comunidades_biogeo_islas_ecologia_ccaa/2021-2022/presentacion/biogeo_enp.html" width="1200" height="900"> </iframe></p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p></div></div>
 </body>
 </html>
