@@ -21,13 +21,8 @@ Además, la biogeografía de islas es uno de los pilares conceptuales que susten
 De manera más concreta, los objetivos de esta sesión son:
 
 + Conocer el concepto de biogeografía de islas.
-
 + Comprender la diferencia entre patrón espacial de una variable y el proceso que explica dicho patrón. Ej. "las islas pequeñas tienen menos especies" y "esto ocurre porque ...."
-
-+ Establecer relaciones conceptuales entre la bioeografía de islas y el concepto de metapoblación. Este objetivo se abordará con una actividad específica calificable. 
-
 + Transferir el conocimiento adquirido en esta sesión a la resolución de un problema concreto relacionado con el concepto de fragmentación de hábitats. Este objetivo se abordará con una tarea específica calificable. 
-
 + Aprender las relaciones entre la biogeografía de islas y el diseño de redes de espacios protegidos.
 
 
@@ -83,3 +78,40 @@ Las llamadas pregunta bisagra forman parte de una técnica docente que permite a
 En esta ocasión, planteamos la siguiente pregunta:
 
 >¿qué relación hay entre la teoría de la biogeografía de islas y las metapoblaciones? ¿Sirven ambos conceptos para comprender el mismo proceso ecológico?, ¿ponen el foco las dos en los mismos niveles de organización de la vida?
+
+
+
+Esta pregunta es importante porque su respuesta nos permitirá mejorar la capacidad de trazar "puentes" entre conceptos aparentemente diferentes. También nos ayuda a constatar que las teorías y conceptos que vemos son constructos intelectuales. Abordamos esta serie de preguntas recurriendo a dos imágenes que usamos previamente para describir los conceptos de metapoblación y de biogeografía de islas:
+
+
+
+![metapoblacion]()
+
+
+
+![biogeoislas]()
+
+Los dos esquemas se parecen bastante:
+
+- En los dos hay entidades aisladas que se relacionan a través de la migración.
+- En las dos hay tasas de extinción. 
+
+Pero hay también una importante diferencia: en el caso de las metapoblaciones las relaciones se refiere a la extinción de una subpoblación concreta. En el caso de la biogeografía de islas se refiere a la tasa de extinción de la comunidad. Es decir, a la proporción de especies de la isla que se extinguen en cada lapso de tiempo. Esta diferencia nos permite contestar a la última pregunta:
+
+> La teoría de metapoblaciones y la de biogeografía de islas se refieren a niveles diferentes de organización de la vida. Las metapoblaciones se refieren a las poblaciones y la biogeografía de islas a las comunidades.
+> 
+
+Para saber si ambas teorías se refieren al mismo proceso ecológico, tendremos que poner el foco en las funciones ecológicas que describen ambas teorías:
++ En la teoría de metapoblaciones vemos cómo cada subpoblación tiene una dinámica demográfica determinada. 
++ En la biogeografía de islas cada isla está ocupada por especies diferentes. El hecho de que en dicha teoría solo nos centremos en la riqueza (nº de especies) no quiere decir que en dicha isla las especies tengan dinámicas demográficas concretas. Y dado que están aisladas, es probable que se comporten como subpoblaciones. Así que podemos decir que en una isla (sensu biogeografía de islas) hay muchas subpoblaciones de distintas especies.
++ Además, en ambas teorías se usa el concepto de migración. Es este proceso el que explica el movimiento de los individuos. Son estos los que se mueven en ambos casos.
+
+>O sea, que podemos decir que sí, que ambas teorías inciden sobre los mismos procesos ecológicos. Lo que ocurre es que los analizan de manera diferente. El proceso siempre está ahí, somos nosotros (los humanos) los que lo analizamos con miradas variadas.
+>
+
+La tercera pregunta queda contestada parcialmente ya. Aunque para fijar la idea, quizás nos venga bien "inventar" el concepto de "metacomunidad". Una metacomunidad se define como un conjunto de subcomunidades que interactúan entre sí mediante la dispersión de individuos de distintas especies. En realidad este concepto ya existe en ecología. [Aquí](https://en.wikipedia.org/wiki/Metacommunity) tienes una definición más formal. Quizás el dibujo de abajo te ayude a entender mejor el concepto. En él puedes ver cómo en cada isla hay subpoblaciones de distintas especies. El conjunto de subpoblaciones que hay en una isla puede ser denominado como una subpoblación.
+
+
+
+
+
