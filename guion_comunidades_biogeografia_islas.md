@@ -7,7 +7,7 @@
 > + **Duración**: Aproximadamente 2 horas.
 
 
-![portada](https://github.com/aprendiendo-cosas/Te_comunidades_biogeo_islas_ecologia_ccaa/raw/main/presentacion/images/portada.png)
+![portada](https://github.com/aprendiendo-cosas/Te_comunidades_biogeo_islas_ecologia_ccaa/raw/main/imagenes/portada.png)
 
 
 
@@ -85,11 +85,11 @@ Esta pregunta es importante porque su respuesta nos permitirá mejorar la capaci
 
 
 
-![metapoblacion]()
+![metapoblacion](https://raw.githubusercontent.com/aprendiendo-cosas/Te_comunidades_biogeo_islas_ecologia_ccaa/main/imagenes/metapoblaciones.png)
 
 
 
-![biogeoislas]()
+![biogeoislas](https://raw.githubusercontent.com/aprendiendo-cosas/Te_comunidades_biogeo_islas_ecologia_ccaa/main/imagenes/biogeografia_islas.png)
 
 Los dos esquemas se parecen bastante:
 
@@ -113,5 +113,5 @@ La tercera pregunta queda contestada parcialmente ya. Aunque para fijar la idea,
 
 
 
-
+![metacomunidad](https://raw.githubusercontent.com/aprendiendo-cosas/Te_comunidades_biogeo_islas_ecologia_ccaa/main/imagenes/islas_metapoblaciones_1.png)
 
