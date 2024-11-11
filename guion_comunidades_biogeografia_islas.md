@@ -7,7 +7,7 @@
 > + **Duración**: Aproximadamente 2 horas.
 
 
-![portada](https://raw.githubusercontent.com/aprendiendo-cosas/Te_comunidades_biogeo_islas_ecologia_ccaa/refs/heads/main/imagenes/portada.png)
+![portada](https://raw.githubusercontent.com/aprendiendo-cosas/Te_comunidades_biogeo_islas_ecologia_ccaa/refs/tags/2024_2025/imagenes/portada.png)
 
 
 
@@ -49,7 +49,7 @@ Se usará una presentación de prezi como guía para explicar los siguientes con
 
   
 
-A continuación se puede ver la presentación mencionada. [Aquí](https://github.com/aprendiendo-cosas/Te_comunidades_biogeo_islas_ecologia_ccaa/raw/main/presentacion/comunidades_biogeografia_islas.exe) se puede descargar la versión interactiva para Windows. Y [aquí](https://github.com/aprendiendo-cosas/Te_comunidades_biogeo_islas_ecologia_ccaa/raw/main/presentacion/comunidades_biogeografia_islas.zip) para Mac. Por último, [aquí](https://github.com/aprendiendo-cosas/Te_comunidades_biogeo_islas_ecologia_ccaa/raw/main/presentacion/comunidades_biogeografia_islas.pdf) la tienes en pdf.
+A continuación se puede ver la presentación mencionada. [Aquí](https://github.com/aprendiendo-cosas/Te_comunidades_biogeo_islas_ecologia_ccaa/raw/2024_2025/presentacion/comunidades_biogeografia_islas.exe) se puede descargar la versión interactiva para Windows. Y [aquí](https://github.com/aprendiendo-cosas/Te_comunidades_biogeo_islas_ecologia_ccaa/raw/2024_2025/presentacion/comunidades_biogeografia_islas.zip) para Mac. Por último, [aquí](https://github.com/aprendiendo-cosas/Te_comunidades_biogeo_islas_ecologia_ccaa/raw/2024_2025/presentacion/comunidades_biogeografia_islas.pdf) la tienes en pdf.
 
 
 
@@ -59,25 +59,25 @@ A continuación se puede ver la presentación mencionada. [Aquí](https://github
 
 Además de la presentación, recomiendo estudiar el siguiente material:
 
-+ Capítulo sobre biogeografía de islas del libro de Begon ([aquí](https://github.com/aprendiendo-cosas/Te_comunidades_biogeo_islas_ecologia_ccaa/raw/main/biblio/Biogeografia_Begon.pdf)).
++ Capítulo sobre biogeografía de islas del libro de Begon ([aquí](https://github.com/aprendiendo-cosas/Te_comunidades_biogeo_islas_ecologia_ccaa/raw/2024_2025/biblio/Biogeografia_Begon.pdf)).
 + [Modelo dinámico en internet para simular la biogeografía de islas.](http://virtualbiologylab.org/ModelsHTML5/IslandBiogeography/IslandBiogeography.html) 
 
 ### Biogeografía de islas y espacios protegidos
 
 En esta segunda parte de la sesión hablaremos sobre cómo la biogeografía de islas ha contribuido a sostener el concepto de espacio protegido que usamos en la actualidad. Dicho concepto se basa en la creación de "islas" de naturaleza en un mar antropizado no adecuado para la existencia de ecosistemas naturales. Analizaremos en qué medida este concepto se ha extendido por el mundo y da forma a las políticas de conservación de la naturaleza en casi todo el planeta. También analizaremos los puntos débiles de esta aproximación, así como posibles alternativas para mejorarla. 
 
-Para guiar esta segunda parte usaremos [este](https://github.com/aprendiendo-cosas/Te_comunidades_biogeo_islas_ecologia_ccaa/raw/main/presentacion/ENPs.xmind) mapa mental, al que también se puede acceder de forma interactiva [aquí](https://rawcdn.githack.com/aprendiendo-cosas/Te_comunidades_biogeo_islas_ecologia_ccaa/main/presentacion/biogeo_enp.html). 
+Para guiar esta segunda parte usaremos [este](https://github.com/aprendiendo-cosas/Te_comunidades_biogeo_islas_ecologia_ccaa/raw/2024_2025/presentacion/ENPs.xmind) mapa mental, al que también se puede acceder de forma interactiva [aquí](https://rawcdn.githack.com/aprendiendo-cosas/Te_comunidades_biogeo_islas_ecologia_ccaa/2024_2025/presentacion/biogeo_enp.html). 
 
 
-<p><iframe src="https://rawcdn.githack.com/aprendiendo-cosas/Te_comunidades_biogeo_islas_ecologia_ccaa/main/presentacion/biogeo_enp.html" width="1200" height="900"> </iframe></p>
+<p><iframe src="https://rawcdn.githack.com/aprendiendo-cosas/Te_comunidades_biogeo_islas_ecologia_ccaa/2024_2025/presentacion/biogeo_enp.html" width="1200" height="900"> </iframe></p>
 
 
 
 Además del material descrito anteriormente, puedes estudiar el siguiente material complementario:
 
-+ [Primeras aplicaciones](https://github.com/aprendiendo-cosas/Te_comunidades_biogeo_islas_ecologia_ccaa/raw/main/biblio/biogeografia_islas_ENPs.pdf) (años 80 del siglo pasado) de la biogeografía de islas al diseño de espacios protegidos. 
-+ [Ejemplo](https://github.com/aprendiendo-cosas/Te_comunidades_biogeo_islas_ecologia_ccaa/raw/main/biblio/priority_areas_ecuador.pdf) del uso de la biogeografía de islas para diseñar áreas protegidas en Ecuador. 
-+ [Incorporación de la componente socio-ecológica al diseño de espacios protegidos.](https://github.com/aprendiendo-cosas/Te_comunidades_biogeo_islas_ecologia_ccaa/raw/main/biblio/socio_Ecology.pdf) 
++ [Primeras aplicaciones](https://github.com/aprendiendo-cosas/Te_comunidades_biogeo_islas_ecologia_ccaa/raw/2024_2025/biblio/biogeografia_islas_ENPs.pdf) (años 80 del siglo pasado) de la biogeografía de islas al diseño de espacios protegidos. 
++ [Ejemplo](https://github.com/aprendiendo-cosas/Te_comunidades_biogeo_islas_ecologia_ccaa/raw/2024_2025/biblio/priority_areas_ecuador.pdf) del uso de la biogeografía de islas para diseñar áreas protegidas en Ecuador. 
++ [Incorporación de la componente socio-ecológica al diseño de espacios protegidos.](https://github.com/aprendiendo-cosas/Te_comunidades_biogeo_islas_ecologia_ccaa/raw/2024_2025/biblio/socio_Ecology.pdf) 
 
 
 
@@ -89,7 +89,7 @@ En esta ocasión, planteamos la siguiente pregunta:
 
 >¿qué relación hay entre la teoría de la biogeografía de islas y las metapoblaciones? ¿Sirven ambos conceptos para comprender el mismo proceso ecológico?, ¿ponen el foco las dos en los mismos niveles de organización de la vida?
 
-
+Esta actividad quedó pendiente en la última sesión de teoría en la que hablamos de biogeografía de islas. Pedí a la clase que analizara la pregunta y que reflexionara sobre la misma. Al día siguiente nadie había trabajado con esto. Así que, dada la falta de interés, no la abordamos en clase. Esta pregunta bisagra se transforma en una actividad de evaluación continua. 
 
 
 
