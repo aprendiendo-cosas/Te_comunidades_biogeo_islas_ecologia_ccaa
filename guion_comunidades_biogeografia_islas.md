@@ -1,13 +1,13 @@
 # Comunidades. Biogeografía de islas
 
 > + **_Tipo de material_**: <span style="display: inline-block; font-size: 12px; color: white; background-color: #029BF9; border-radius: 5px; padding: 5px; font-weight: bold;"> Teoría</span> <span style="display: inline-block; font-size: 12px; color: white; background-color: #E68532; border-radius: 5px; padding: 5px; font-weight: bold;"> Aplicación</span>
-> + **_Versión_**: 2024-2025
+> + **_Versión_**: 2025-2026
 > + **_Asignatura (grado)_**: Ecología (CCAA)
 > + **_Autor_**: Curro Bonet-García (fjbonet@uco.es)
-> + **Duración**: Aproximadamente 2 horas.
+> + **Duración**: Aproximadamente 1 hora de trabajo en casa
 
 
-![portada](https://raw.githubusercontent.com/aprendiendo-cosas/Te_comunidades_biogeo_islas_ecologia_ccaa/refs/tags/2024_2025/imagenes/portada.png)
+![portada](https://raw.githubusercontent.com/aprendiendo-cosas/Te_comunidades_biogeo_islas_ecologia_ccaa/refs/tags/2025_2026/imagenes/portada.png)
 
 
 
@@ -29,18 +29,10 @@ De manera más concreta, los objetivos de esta sesión son:
 
 + Conocer el concepto de biogeografía de islas.
 + Comprender la diferencia entre patrón espacial de una variable y el proceso que explica dicho patrón. Ej. "las islas pequeñas tienen menos especies" y "esto ocurre porque ...."
-+ Transferir el conocimiento adquirido en esta sesión a la resolución de un problema concreto relacionado con el concepto de fragmentación de hábitats. Este objetivo se abordará con una tarea específica no calificable. 
-+ Aprender las relaciones entre la biogeografía de islas y el diseño de redes de espacios protegidos.
 
 
 
-## Contenido
-
-La sesión consta de dos apartados diferenciados. En primer lugar se expondrán los conceptos teóricos principales relacionados con los objetivos anteriores. En la segunda parte de la sesión abordaremos cómo se ha trasladado la idea de biogeografía de islas a la construcción de espacios naturales protegidos. 
-
-
-
-### Conceptos genereales sobre biogeografía de islas.
+## Conceptos genereales sobre biogeografía de islas.
 
 Se usará una presentación de prezi como guía para explicar los siguientes conceptos:
 
@@ -49,7 +41,7 @@ Se usará una presentación de prezi como guía para explicar los siguientes con
 
   
 
-A continuación se puede ver la presentación mencionada. [Aquí](https://github.com/aprendiendo-cosas/Te_comunidades_biogeo_islas_ecologia_ccaa/raw/2024_2025/presentacion/comunidades_biogeografia_islas.exe) se puede descargar la versión interactiva para Windows. Y [aquí](https://github.com/aprendiendo-cosas/Te_comunidades_biogeo_islas_ecologia_ccaa/raw/2024_2025/presentacion/comunidades_biogeografia_islas.zip) para Mac. Por último, [aquí](https://github.com/aprendiendo-cosas/Te_comunidades_biogeo_islas_ecologia_ccaa/raw/2024_2025/presentacion/comunidades_biogeografia_islas.pdf) la tienes en pdf.
+A continuación se puede ver la presentación mencionada. [Aquí](https://github.com/aprendiendo-cosas/Te_comunidades_biogeo_islas_ecologia_ccaa/raw/2025_2026/presentacion/comunidades_biogeografia_islas.exe) se puede descargar la versión interactiva para Windows. Y [aquí](https://github.com/aprendiendo-cosas/Te_comunidades_biogeo_islas_ecologia_ccaa/raw/2025_2026/presentacion/comunidades_biogeografia_islas.zip) para Mac. Por último, [aquí](https://github.com/aprendiendo-cosas/Te_comunidades_biogeo_islas_ecologia_ccaa/raw/2025_2026/presentacion/comunidades_biogeografia_islas.pdf) la tienes en pdf.
 
 
 
@@ -59,43 +51,26 @@ A continuación se puede ver la presentación mencionada. [Aquí](https://github
 
 Además de la presentación, recomiendo estudiar el siguiente material:
 
-+ Capítulo sobre biogeografía de islas del libro de Begon ([aquí](https://github.com/aprendiendo-cosas/Te_comunidades_biogeo_islas_ecologia_ccaa/raw/2024_2025/biblio/Biogeografia_Begon.pdf)).
++ Capítulo sobre biogeografía de islas del libro de Begon ([aquí](https://github.com/aprendiendo-cosas/Te_comunidades_biogeo_islas_ecologia_ccaa/raw/2025_2026/biblio/Biogeografia_Begon.pdf)).
 + [Modelo dinámico en internet para simular la biogeografía de islas.](http://virtualbiologylab.org/ModelsHTML5/IslandBiogeography/IslandBiogeography.html) 
 
-### Biogeografía de islas y espacios protegidos
-
-En esta segunda parte de la sesión hablaremos sobre cómo la biogeografía de islas ha contribuido a sostener el concepto de espacio protegido que usamos en la actualidad. Dicho concepto se basa en la creación de "islas" de naturaleza en un mar antropizado no adecuado para la existencia de ecosistemas naturales. Analizaremos en qué medida este concepto se ha extendido por el mundo y da forma a las políticas de conservación de la naturaleza en casi todo el planeta. También analizaremos los puntos débiles de esta aproximación, así como posibles alternativas para mejorarla. 
-
-Para guiar esta segunda parte usaremos [este](https://github.com/aprendiendo-cosas/Te_comunidades_biogeo_islas_ecologia_ccaa/raw/2024_2025/presentacion/ENPs.xmind) mapa mental, al que también se puede acceder de forma interactiva [aquí](https://rawcdn.githack.com/aprendiendo-cosas/Te_comunidades_biogeo_islas_ecologia_ccaa/2024_2025/presentacion/biogeo_enp.html). 
-
-
-<p><iframe src="https://rawcdn.githack.com/aprendiendo-cosas/Te_comunidades_biogeo_islas_ecologia_ccaa/2024_2025/presentacion/biogeo_enp.html" width="1200" height="900"> </iframe></p>
 
 
 
-Además del material descrito anteriormente, puedes estudiar el siguiente material complementario:
 
-+ [Primeras aplicaciones](https://github.com/aprendiendo-cosas/Te_comunidades_biogeo_islas_ecologia_ccaa/raw/2024_2025/biblio/biogeografia_islas_ENPs.pdf) (años 80 del siglo pasado) de la biogeografía de islas al diseño de espacios protegidos. 
-+ [Ejemplo](https://github.com/aprendiendo-cosas/Te_comunidades_biogeo_islas_ecologia_ccaa/raw/2024_2025/biblio/priority_areas_ecuador.pdf) del uso de la biogeografía de islas para diseñar áreas protegidas en Ecuador. 
-+ [Incorporación de la componente socio-ecológica al diseño de espacios protegidos.](https://github.com/aprendiendo-cosas/Te_comunidades_biogeo_islas_ecologia_ccaa/raw/2024_2025/biblio/socio_Ecology.pdf) 
+## Grabación de esta sesión
 
+El siguiente vídeo muestra la grabación de esta sesión en el curso 20-21. Se incluye aquí como ayuda para la preparación del tema en casa. No es necesario ver el vídeo completo porque incluye material que este curso se impartirá en la asignatura de Gestión de ecosistemas. Los contenidos que corresponden a este tema acaban en el minuto 24. Si queréis verlo, estupendo, eso que llevamos avanzado para el siguiente cuatrimestre :)
 
 
-## Pregunta "bisagra"
 
-Las llamadas pregunta bisagra forman parte de una técnica docente que permite al estudiante tomar conciencia de lo que ha aprendido y también de las posibles dudas que le quedan. Se formulan de manera deliberadamente ambigua para fomentar la reflexión, el pensamiento crítico y la expresión de dudas por parte de los estudiantes.
-
-En esta ocasión, planteamos la siguiente pregunta:
-
->¿qué relación hay entre la teoría de la biogeografía de islas y las metapoblaciones? ¿Sirven ambos conceptos para comprender el mismo proceso ecológico?, ¿ponen el foco las dos en los mismos niveles de organización de la vida?
-
-Esta actividad quedó pendiente en la última sesión de teoría en la que hablamos de biogeografía de islas. Pedí a la clase que analizara la pregunta y que reflexionara sobre la misma. Al día siguiente nadie había trabajado con esto. Así que, dada la falta de interés, no la abordamos en clase. Esta pregunta bisagra se transforma en una actividad de evaluación continua. 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Q4psVw4QMnA?si=9aVfPgz0KfYVJmJD" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 
 
 ****
 
-[Aquí](https://github.com/aprendiendo-cosas/Te_comunidades_biogeo_islas_ecologia_ccaa/archive/refs/tags/2024_2025.zip) puedes descargar un archivo .zip que contiene este guión en formato html y todo el material que incluye.
+[Aquí](https://github.com/aprendiendo-cosas/Te_comunidades_biogeo_islas_ecologia_ccaa/archive/refs/tags/2025_2026.zip) puedes descargar un archivo .zip que contiene este guión en formato html y todo el material que incluye.
 
 ****
 Haz click [aquí](https://github.com/aprendiendo-cosas/Te_comunidades_biogeo_islas_ecologia_ccaa/releases) para ver cómo ha cambiado este guión en los distintos cursos académicos.
